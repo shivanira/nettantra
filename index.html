@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="regd.css">
+</head>
+<body>
+<form>
+    <div class="container">
+        <h1 style="font-size: 50px; margin-left: 170px; color: green;">Registration</h1>
+      <div>
+        <label for=""> Full Name </label><br>
+        <input type="text" name="firstname" placeholder="Firstname" class="fname" id="fname">
+        <input type="text" name="lastname" placeholder="Lastname" class="fname" id="lname">
+        </div>
+     <div>
+            <label for="">Date of Birth</label><br>
+            <input type="date" name="dob" id="dob" placeholder="MM/DD/YYYY" class="dob" id="dob">
+        </div>
+        <div>
+            <label for="">Email</label><br>
+            <input type="text" name="email" class="dob" id="email">
+        </div>
+        <div>
+            <label for="">Father's name</label><br>
+            <input type="text" name="ffname" placeholder="first name" class="fname" id="ffname">
+            <input type="text" name="flname" placeholder="last name" class="fname" id="flname">
+        </div>
+        <div>
+            <label for="">Mother's name</label><br>
+            <input type="text" name="mfname" placeholder="first name" class="fname" id="mfname">
+            <input type="text" name="mlname" placeholder="last name" class="fname" id="mlname">
+        </div>
+        <div>
+            <label for="">Gender <span class="error">*</span></label><br>
+            <input type="radio" name="gender" value="male" id="male">Male
+            <input type="radio" name="gender"  value="female" id="female">Female
+        </div>
+        <div>
+            <label for="">Nationallity</label><br>
+            <input type="text" name="nationality" class="dob" id="nationality">
+        </div>
+        <div>
+            <label for="">Home Address</label><br>
+            <input type="text" name="home"  placeholder="Street Address" class="dob" id="home"><br>
+            <input type="text" name="city" placeholder=" City"class="fname" id="city">
+            <select name="country" class="cname" id="country">
+                <option value="country">--country--</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Algeria">Algeria</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+                <option value="France">France</option>
+                <option value="Newzland">Newzland</option>
+                <option value="Australia">Australia</option>
+                </select>
+        </div>
+        <div>
+            <label for="">Telephone-Home</label><br>
+            <input type="text" name="telephone" placeholder="### ### ####"class="dob" id="telephone" >
+        </div>
+        <div>
+            <label for="">Telephone-Mobile</label><br>
+            <input type="text" name="phone" placeholder="### ### ####" class="dob" id="phone" >
+        </div><br><br><br>
+        <button type="button" onclick="saveData()">Submit</button>
+    </div>
+
+</form>
+</body>
+<script src="register.js"></script>
+</html>

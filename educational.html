@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="edu.css">
+</head>
+<body>
+    <form>
+    <div class="cer">
+    <h1 style="font-size: 50px; margin-left: 170px; color: green;">Educational</h1>
+        <div>
+            <label for="">HSC Institution name</label><br>
+            <input type="text" placeholder="Institute Name" class="edu" id="institute" name="institute">
+        </div>
+        <div>
+            <label for="">HSC Board</label><br>
+            <select name="country" id="country"class="edu">
+            <option value="select">--select--</option>
+                <option value="cbsc">CBSC</option>
+                <option value="icsc">ICSC</option>
+                <option value="sb">State board</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Score in HSC in percentage</label><br>
+            <input type="number" placeholder="percentage" class="edu" id="percentage" name="percentage">
+        </div>
+        <div>
+            <label for="">SSC Institution name</label><br>
+            <input type="text" placeholder="Institute Name" class="edu" id="hinstitute" name="hinstitute">
+        </div>
+        <div>
+            <label for="">SSC Board</label><br>
+            <select name="ssc" id="ssc" class="edu">
+            <option value="select2">--select--</option>
+                <option value="cbsc2">CBSC</option>
+                <option value="icsc2">ICSC</option>
+                <option value="sb2">State board</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Score in SSC in percentage</label><br>
+            <input type="number" placeholder="percentage" class="edu" id="percentage2" name="percentage2">
+        </div>
+        <div>
+            <label for="">Currently pursuing</label><br>
+            <input type="text" placeholder="Currently pursuing" class="edu" id="cpu" name="cpu">
+        </div>
+        <div>
+            <label for="">Current educational institution name</label><br>
+            <input type="text" placeholder="Current educational institution name" class="edu" id="cein" name="cein">
+        </div>
+        <div>
+            <label for="">Overall percentage</label><br>
+            <input type="number" placeholder="percentage" class="edu" id="op" name="op">
+        </div>
+        <div>
+            <label for="">Current backlogs if any</label><br>
+            <input type="number" class="edu" id="cb" name="cb">
+        </div><br><br><br><br>
+    <div>
+        <center>
+            
+            <button onclick="saveRecord()">Submit</button>
+          
+        </center>
+    </div>
+</div>
+</form>
+</body>
+<script src="education.js"></script>
+
+</html>

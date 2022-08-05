@@ -1,0 +1,66 @@
+.uplode{
+    background-color: rgb(134, 223, 223);
+
+    height: 710px;
+
+    width: 600px;
+
+    margin: 80px 300px;
+
+    padding: 20px 20px;
+}
+.save{
+
+   
+
+    height: 35px;
+
+    width: 61px;
+
+    background-color: rgb(222, 238, 151);
+
+    border: 0px;
+
+}
+
+.save:hover{
+
+    background-color: rgb(175, 175, 175);
+
+}
+
+.submit{
+
+    height: 35px;
+
+    width: 61px;
+
+    background-color: rgb(161, 255, 98);
+
+    border: 0px;
+
+}
+
+.submit:hover{
+
+    background-color: rgb(175, 175, 175);
+
+}
+
+.cancel{
+
+    height: 35px;
+
+    width: 61px;
+
+    background-color: rgb(247, 85, 85);
+
+    border: 0px;
+
+}
+
+.cancel:hover{
+
+    background-color: rgb(175, 175, 175);
+
+}
